@@ -1,6 +1,6 @@
 function greeting() {
     
-    const inputname = document.getElementById("name");
+    const inputname = document.getElementById("name").value;
     
     
     const greetingArea = document.getElementById("output");
